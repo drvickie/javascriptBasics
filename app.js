@@ -11,6 +11,12 @@ let name = "Kay"; let age = 75;
 let name = "Kay"
 let age = 75 
 
+/* .... multiline comments
+....
+.....
+.....
+ */
+
 
 // ===== 1. VARIABLES =====
 
@@ -19,6 +25,41 @@ let username = "Alice"; // can be changed later
 const age = 25;         // cannot be reassigned
 
 console.log(username, age);
+
+// Naming conventions
+//let message = "This is a training session" // ✅
+//let message2 = "This is true" // ✅
+//let user_name = "Kay12345" // ✅
+//let myVeryLongName = "Kay Oluwole" // ✅
+
+//Use camelCase
+//Camel case (or camelCase) is a writing style where multiple words are combined into a single word, with the first letter of each word (except the first, in lowerCamelCase) capitalized
+
+//letters, digits, _, and $ are acceptable
+// let 1name = "This is my first message" // ❌
+// let user-name = "Kay12345" // ❌
+// let myVerylongname = "Kay Oluwole" // ❌
+
+
+// Variable declaration (const)
+// const NAME = "Ade Johnson"
+//NAME = "Adewale Johnson" //❌ //error, cannot re-assign to a constant variable
+
+//const NAME = "Ade Johnson" // ✅
+//const name = "Ade Johnson" // ❌
+
+//const MY_BIRTHDAY = "5th July 2000" // ✅
+//const MYBIRTHDAY = "5th July 2000" // ❌
+
+// Variable declaration (let)
+//let name = "Ade Johnson"
+//name = "Adewale Johnson" //✅
+
+//const myBirthday = "5th July 2000" // ✅
+//const mybirthday = "5th July 2000" // ❌
+
+
+
 
 // ===== 2. DATA TYPES =====
 
