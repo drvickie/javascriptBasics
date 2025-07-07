@@ -1,3 +1,17 @@
+// ===== Semi-colon and JS Statements =====
+let text = "Hello People"; //This is a statement
+ alert(text) //This is a statement and semi-colon is not required
+
+ //When is semi-colon required for JS Statements?
+
+let name = "Kay"; let age = 75; 
+//the semi-colon is required to separate these multiple statements on a single line.
+
+//Semi-colon is not required, because the statements are on different lines.
+let name = "Kay"
+let age = 75 
+
+
 // ===== 1. VARIABLES =====
 
 // Declaring variables with let and const
